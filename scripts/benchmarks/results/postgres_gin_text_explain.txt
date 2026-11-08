@@ -1,0 +1,48 @@
+
+
+=== EXPLAIN ANALYZE: buscar_kurta (kurta) ===
+Limit  (cost=9.04..13.58 rows=10 width=47) (actual time=0.165..0.202 rows=10 loops=1)
+  Buffers: shared hit=5
+  ->  Bitmap Heap Scan on pg_products_text  (cost=9.04..51.72 rows=94 width=47) (actual time=0.128..0.150 rows=10 loops=1)
+        Recheck Cond: (to_tsvector('english'::regconfig, documento) @@ '''kurta'''::tsquery)
+        Heap Blocks: exact=2
+        Buffers: shared hit=5
+        ->  Bitmap Index Scan on idx_pg_products_text_gin  (cost=0.00..9.02 rows=94 width=0) (actual time=0.074..0.080 rows=94 loops=1)
+              Index Cond: (to_tsvector('english'::regconfig, documento) @@ '''kurta'''::tsquery)
+              Buffers: shared hit=3
+Planning:
+  Buffers: shared hit=1
+Planning Time: 0.265 ms
+Execution Time: 0.429 ms
+
+
+=== EXPLAIN ANALYZE: buscar_body_lotion (body lotion) ===
+Limit  (cost=12.97..17.23 rows=1 width=47) (actual time=0.039..0.047 rows=5 loops=1)
+  Buffers: shared hit=6
+  ->  Bitmap Heap Scan on pg_products_text  (cost=12.97..17.23 rows=1 width=47) (actual time=0.037..0.042 rows=5 loops=1)
+        Recheck Cond: (to_tsvector('english'::regconfig, documento) @@ '''bodi'' & ''lotion'''::tsquery)
+        Heap Blocks: exact=1
+        Buffers: shared hit=6
+        ->  Bitmap Index Scan on idx_pg_products_text_gin  (cost=0.00..12.97 rows=1 width=0) (actual time=0.027..0.028 rows=5 loops=1)
+              Index Cond: (to_tsvector('english'::regconfig, documento) @@ '''bodi'' & ''lotion'''::tsquery)
+              Buffers: shared hit=5
+Planning:
+  Buffers: shared hit=1
+Planning Time: 0.246 ms
+Execution Time: 0.107 ms
+
+
+=== EXPLAIN ANALYZE: buscar_flip_flops (flip flops) ===
+Limit  (cost=13.08..25.13 rows=10 width=47) (actual time=0.097..0.109 rows=10 loops=1)
+  Buffers: shared hit=6
+  ->  Bitmap Heap Scan on pg_products_text  (cost=13.08..37.18 rows=20 width=47) (actual time=0.095..0.102 rows=10 loops=1)
+        Recheck Cond: (to_tsvector('english'::regconfig, documento) @@ '''flip'' & ''flop'''::tsquery)
+        Heap Blocks: exact=1
+        Buffers: shared hit=6
+        ->  Bitmap Index Scan on idx_pg_products_text_gin  (cost=0.00..13.07 rows=20 width=0) (actual time=0.081..0.081 rows=100 loops=1)
+              Index Cond: (to_tsvector('english'::regconfig, documento) @@ '''flip'' & ''flop'''::tsquery)
+              Buffers: shared hit=5
+Planning:
+  Buffers: shared hit=1
+Planning Time: 0.234 ms
+Execution Time: 0.173 ms

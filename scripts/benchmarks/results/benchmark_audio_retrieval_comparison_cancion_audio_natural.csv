@@ -1,0 +1,271 @@
+modality,dataset_name,dataset_size,vector_dimension,top_k,repeats,own_index_bytes,pg_table_bytes,pg_index_bytes,pg_total_bytes,pg_plan_node,pg_uses_vector_index,case,query_genre,query_doc_id,engine,iteration,client_time_ms,row_count,recall_at_k_vs_own_index,top_ids
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,1,1.3136,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,1,4.1887,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,1,1.4354,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,2,1.3893,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,2,5.7917,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,2,1.6865,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,3,3.2609,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,3,4.5796,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,3,1.0626,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,4,1.6486,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,4,5.1931,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,4,1.1892,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,5,1.3729,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,5,4.4732,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,5,1.241,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,6,1.4825,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,6,5.2075,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,6,1.2518,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,7,1.3992,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,7,4.3313,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,7,1.443,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,8,1.9892,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,8,7.7177,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,8,1.2157,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,9,1.6846,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,9,4.53,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,9,1.0732,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,10,1.5524,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,10,4.4221,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,10,0.9857,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,11,1.2991,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,11,3.5415,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,11,0.9593,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,12,1.3987,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,12,3.3066,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,12,1.388,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,13,1.5079,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,13,3.6416,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,13,0.9804,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,14,1.5325,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,14,3.4524,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,14,0.8717,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,15,1.3537,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,15,4.3502,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,15,1.0245,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,16,1.2936,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,16,3.9644,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,16,1.173,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,17,1.3804,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,17,3.5301,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,17,1.0111,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,18,2.1418,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,18,4.1512,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,18,0.9181,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,19,1.3063,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,19,3.4943,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,19,0.6982,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,20,1.2787,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,20,3.532,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,20,1.2363,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,21,1.293,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,21,3.7159,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,21,0.7405,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,22,1.2587,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,22,3.2891,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,22,0.6584,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,23,1.2377,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,23,3.7437,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,23,0.9,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,24,1.2412,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,24,3.4957,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,24,0.6383,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,25,1.2608,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,25,3.277,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,25,0.6018,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,26,1.2774,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,26,3.9746,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,26,0.9446,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,27,1.3044,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,27,3.9212,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,27,0.7701,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,28,1.2583,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,28,3.3853,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,28,0.628,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,29,1.3363,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,29,9.5613,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,29,1.2506,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_inverted_index,30,1.4631,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_blues,blues,1,own_histogram_sequential,30,6.6021,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_blues,blues,1,postgres_pgvector_hnsw,30,2.7758,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,1,0.7875,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,1,3.1106,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,1,1.5446,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,2,0.7218,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,2,2.7073,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,2,0.8413,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,3,0.6644,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,3,3.1486,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,3,0.9536,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,4,0.6649,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,4,2.4801,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,4,0.7028,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,5,0.6713,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,5,2.3141,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,5,0.5773,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,6,0.628,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,6,2.272,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,6,0.5998,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,7,0.659,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,7,2.7623,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,7,0.9988,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,8,0.7294,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,8,2.5715,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,8,0.6381,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,9,0.6508,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,9,2.4165,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,9,0.6224,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,10,0.6374,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,10,2.3095,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,10,0.5707,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,11,0.6269,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,11,2.4919,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,11,0.9386,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,12,0.7996,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,12,2.4318,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,12,0.706,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,13,0.646,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,13,3.1999,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,13,1.3038,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,14,0.8398,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,14,4.2959,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,14,4.0448,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,15,1.4084,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,15,3.2511,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,15,1.0448,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,16,0.6726,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,16,2.52,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,16,1.1562,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,17,0.6691,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,17,4.1332,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,17,2.7488,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,18,1.1406,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,18,3.8986,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,18,1.9528,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,19,1.084,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,19,5.9559,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,19,3.1336,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,20,1.1324,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,20,3.7703,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,20,3.0413,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,21,3.207,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,21,3.5963,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,21,1.0387,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,22,0.7303,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,22,2.6784,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,22,0.981,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,23,0.6799,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,23,2.5639,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,23,0.6808,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,24,0.6635,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,24,2.6663,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,24,0.7462,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,25,0.6431,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,25,2.3471,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,25,0.6423,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,26,0.6652,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,26,2.5224,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,26,0.6419,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,27,0.6432,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,27,2.3403,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,27,0.591,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,28,0.6425,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,28,2.5254,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,28,12.4849,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,29,1.1594,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,29,6.7375,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,29,2.8642,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_inverted_index,30,1.7886,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_classical,classical,101,own_histogram_sequential,30,3.042,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_classical,classical,101,postgres_pgvector_hnsw,30,0.9598,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,1,1.4966,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,1,5.5928,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,1,1.0935,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,2,1.3801,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,2,3.9407,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,2,0.7809,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,3,1.2921,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,3,3.7103,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,3,1.0729,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,4,1.8231,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,4,3.8378,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,4,0.7833,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,5,1.378,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,5,3.5565,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,5,0.6529,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,6,1.3771,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,6,4.0593,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,6,1.1757,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,7,1.3848,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,7,3.6923,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,7,0.7466,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,8,1.3436,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,8,7.6572,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,8,1.6136,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,9,1.5911,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,9,4.6627,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,9,0.9343,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,10,1.3987,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,10,4.2906,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,10,1.8614,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,11,2.095,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,11,6.7771,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,11,3.4996,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,12,5.9667,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,12,8.7512,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,12,1.2969,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,13,2.0651,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,13,6.4587,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,13,1.0967,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,14,1.4668,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,14,4.0641,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,14,1.0002,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,15,1.9468,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,15,6.2041,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,15,1.1502,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,16,1.4542,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,16,4.4012,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,16,0.9485,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,17,1.9592,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,17,6.4476,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,17,1.1647,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,18,1.8786,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,18,4.2993,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,18,1.1653,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,19,2.3645,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,19,6.185,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,19,1.4163,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,20,1.4644,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,20,3.9398,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,20,0.8198,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,21,1.8011,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,21,4.8624,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,21,1.087,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,22,1.4581,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,22,3.7932,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,22,0.8004,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,23,1.3264,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,23,4.9776,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,23,1.3477,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,24,2.0146,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,24,4.435,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,24,0.9021,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,25,1.3658,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,25,4.0248,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,25,1.4971,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,26,1.5529,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,26,4.087,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,26,0.8194,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,27,1.3527,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,27,3.5506,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,27,0.6717,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,28,1.3764,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,28,4.4083,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,28,1.0981,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,29,1.781,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,29,4.4624,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,29,1.1458,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_inverted_index,30,1.4382,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,,,buscar_rock,rock,901,own_histogram_sequential,30,5.1747,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,30,1571343,1171456,1400832,2605056,Seq Scan,False,buscar_rock,rock,901,postgres_pgvector_hnsw,30,1.0278,10,1.0,901 84 74 271 300 285 378 359 972 422

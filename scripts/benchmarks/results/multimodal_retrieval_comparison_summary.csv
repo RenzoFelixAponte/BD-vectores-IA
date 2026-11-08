@@ -1,0 +1,7 @@
+modality,dataset_name,dataset_size,engine,runs,avg_ms,median_ms,p95_ms,min_ms,max_ms,avg_recall_at_k_vs_own_index,top_k,vector_dimension,own_index_bytes,pg_table_bytes,pg_index_bytes,pg_total_bytes,pg_plan_node,pg_uses_vector_index
+image,fashion-ecommerce-full,44440,own_histogram_inverted_index,90,123.3548,128.502,172.5184,68.6494,201.705,1.0,10,128,64082649,30425088,37322752,67780608,,
+image,fashion-ecommerce-full,44440,own_histogram_sequential,90,234.9355,249.954,331.9504,121.6285,357.8644,1.0,10,128,64082649,30425088,37322752,67780608,,
+image,fashion-ecommerce-full,44440,postgres_pgvector_hnsw,90,4.0777,3.9312,4.9432,3.3866,6.0836,0.7667,10,128,64082649,30425088,37322752,67780608,Index Scan,True
+audio,cancion_audio,999,own_histogram_inverted_index,90,1.3752,1.3532,2.095,0.6269,5.9667,1.0,10,256,1571343,1171456,1400832,2605056,,
+audio,cancion_audio,999,own_histogram_sequential,90,4.1303,3.9099,6.7375,2.272,9.5613,1.0,10,256,1571343,1171456,1400832,2605056,,
+audio,cancion_audio,999,postgres_pgvector_hnsw,90,1.3019,1.0178,2.8642,0.5707,12.4849,1.0,10,256,1571343,1171456,1400832,2605056,Seq Scan,False

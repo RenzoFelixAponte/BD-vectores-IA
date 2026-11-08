@@ -1,0 +1,91 @@
+case,engine,query,iteration,client_time_ms,row_count
+buscar_kurta,postgres_gin,kurta,1,38.6182,10
+buscar_kurta,postgres_gin,kurta,2,11.4522,10
+buscar_kurta,postgres_gin,kurta,3,11.6831,10
+buscar_kurta,postgres_gin,kurta,4,11.5764,10
+buscar_kurta,postgres_gin,kurta,5,13.8748,10
+buscar_kurta,postgres_gin,kurta,6,12.2513,10
+buscar_kurta,postgres_gin,kurta,7,13.4139,10
+buscar_kurta,postgres_gin,kurta,8,14.9254,10
+buscar_kurta,postgres_gin,kurta,9,12.1001,10
+buscar_kurta,postgres_gin,kurta,10,12.1178,10
+buscar_kurta,postgres_gin,kurta,11,12.2774,10
+buscar_kurta,postgres_gin,kurta,12,12.7537,10
+buscar_kurta,postgres_gin,kurta,13,12.958,10
+buscar_kurta,postgres_gin,kurta,14,12.0901,10
+buscar_kurta,postgres_gin,kurta,15,12.0516,10
+buscar_kurta,postgres_gin,kurta,16,12.0287,10
+buscar_kurta,postgres_gin,kurta,17,11.0484,10
+buscar_kurta,postgres_gin,kurta,18,10.6141,10
+buscar_kurta,postgres_gin,kurta,19,10.7428,10
+buscar_kurta,postgres_gin,kurta,20,10.3101,10
+buscar_kurta,postgres_gin,kurta,21,10.7022,10
+buscar_kurta,postgres_gin,kurta,22,10.4973,10
+buscar_kurta,postgres_gin,kurta,23,11.682,10
+buscar_kurta,postgres_gin,kurta,24,10.6482,10
+buscar_kurta,postgres_gin,kurta,25,10.3519,10
+buscar_kurta,postgres_gin,kurta,26,11.2759,10
+buscar_kurta,postgres_gin,kurta,27,10.2712,10
+buscar_kurta,postgres_gin,kurta,28,11.3457,10
+buscar_kurta,postgres_gin,kurta,29,10.2895,10
+buscar_kurta,postgres_gin,kurta,30,11.1837,10
+buscar_body_lotion,postgres_gin,body lotion,1,2.4425,5
+buscar_body_lotion,postgres_gin,body lotion,2,1.6217,5
+buscar_body_lotion,postgres_gin,body lotion,3,1.6367,5
+buscar_body_lotion,postgres_gin,body lotion,4,1.6162,5
+buscar_body_lotion,postgres_gin,body lotion,5,1.6785,5
+buscar_body_lotion,postgres_gin,body lotion,6,1.5752,5
+buscar_body_lotion,postgres_gin,body lotion,7,1.5342,5
+buscar_body_lotion,postgres_gin,body lotion,8,1.59,5
+buscar_body_lotion,postgres_gin,body lotion,9,1.5057,5
+buscar_body_lotion,postgres_gin,body lotion,10,1.5337,5
+buscar_body_lotion,postgres_gin,body lotion,11,1.9546,5
+buscar_body_lotion,postgres_gin,body lotion,12,1.7171,5
+buscar_body_lotion,postgres_gin,body lotion,13,1.6875,5
+buscar_body_lotion,postgres_gin,body lotion,14,1.7495,5
+buscar_body_lotion,postgres_gin,body lotion,15,1.6322,5
+buscar_body_lotion,postgres_gin,body lotion,16,1.5701,5
+buscar_body_lotion,postgres_gin,body lotion,17,1.572,5
+buscar_body_lotion,postgres_gin,body lotion,18,1.4793,5
+buscar_body_lotion,postgres_gin,body lotion,19,1.521,5
+buscar_body_lotion,postgres_gin,body lotion,20,1.5833,5
+buscar_body_lotion,postgres_gin,body lotion,21,1.6128,5
+buscar_body_lotion,postgres_gin,body lotion,22,1.5034,5
+buscar_body_lotion,postgres_gin,body lotion,23,1.5102,5
+buscar_body_lotion,postgres_gin,body lotion,24,1.5335,5
+buscar_body_lotion,postgres_gin,body lotion,25,1.6038,5
+buscar_body_lotion,postgres_gin,body lotion,26,1.534,5
+buscar_body_lotion,postgres_gin,body lotion,27,1.5973,5
+buscar_body_lotion,postgres_gin,body lotion,28,1.657,5
+buscar_body_lotion,postgres_gin,body lotion,29,1.7755,5
+buscar_body_lotion,postgres_gin,body lotion,30,1.769,5
+buscar_flip_flops,postgres_gin,flip flops,1,13.3016,10
+buscar_flip_flops,postgres_gin,flip flops,2,14.5499,10
+buscar_flip_flops,postgres_gin,flip flops,3,13.2783,10
+buscar_flip_flops,postgres_gin,flip flops,4,12.5832,10
+buscar_flip_flops,postgres_gin,flip flops,5,13.5777,10
+buscar_flip_flops,postgres_gin,flip flops,6,13.3641,10
+buscar_flip_flops,postgres_gin,flip flops,7,12.9325,10
+buscar_flip_flops,postgres_gin,flip flops,8,12.921,10
+buscar_flip_flops,postgres_gin,flip flops,9,16.4296,10
+buscar_flip_flops,postgres_gin,flip flops,10,12.5556,10
+buscar_flip_flops,postgres_gin,flip flops,11,13.3138,10
+buscar_flip_flops,postgres_gin,flip flops,12,13.1167,10
+buscar_flip_flops,postgres_gin,flip flops,13,12.8842,10
+buscar_flip_flops,postgres_gin,flip flops,14,13.4973,10
+buscar_flip_flops,postgres_gin,flip flops,15,13.5831,10
+buscar_flip_flops,postgres_gin,flip flops,16,13.7097,10
+buscar_flip_flops,postgres_gin,flip flops,17,12.9738,10
+buscar_flip_flops,postgres_gin,flip flops,18,13.6423,10
+buscar_flip_flops,postgres_gin,flip flops,19,13.4798,10
+buscar_flip_flops,postgres_gin,flip flops,20,13.5439,10
+buscar_flip_flops,postgres_gin,flip flops,21,13.6997,10
+buscar_flip_flops,postgres_gin,flip flops,22,13.632,10
+buscar_flip_flops,postgres_gin,flip flops,23,13.5683,10
+buscar_flip_flops,postgres_gin,flip flops,24,13.6165,10
+buscar_flip_flops,postgres_gin,flip flops,25,12.9587,10
+buscar_flip_flops,postgres_gin,flip flops,26,13.517,10
+buscar_flip_flops,postgres_gin,flip flops,27,12.871,10
+buscar_flip_flops,postgres_gin,flip flops,28,12.9744,10
+buscar_flip_flops,postgres_gin,flip flops,29,12.7557,10
+buscar_flip_flops,postgres_gin,flip flops,30,12.9771,10

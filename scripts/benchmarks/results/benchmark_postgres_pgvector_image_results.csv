@@ -1,0 +1,91 @@
+case,engine,query,query_doc_id,iteration,client_time_ms,row_count
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,1,1.6507,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,2,0.7808,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,3,0.6277,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,4,0.6236,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,5,0.6106,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,6,0.7075,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,7,0.6159,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,8,0.5876,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,9,0.571,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,10,0.805,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,11,0.7902,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,12,0.8871,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,13,0.5197,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,14,0.4768,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,15,0.8453,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,16,1.0104,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,17,0.6051,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,18,0.5954,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,19,0.621,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,20,0.8285,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,21,0.8047,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,22,0.7503,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,23,0.6665,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,24,0.5152,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,25,0.6989,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,26,0.6296,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,27,0.6944,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,28,0.5838,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,29,0.6372,10
+buscar_kurta,postgres_pgvector_hnsw,kurta,12780,30,0.8224,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,1,0.7324,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,2,0.7166,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,3,0.767,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,4,0.8595,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,5,0.7312,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,6,1.141,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,7,1.6682,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,8,0.9336,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,9,0.6606,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,10,0.6875,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,11,0.5586,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,12,0.6008,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,13,0.5303,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,14,0.6484,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,15,0.9722,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,16,0.841,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,17,0.7447,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,18,0.7976,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,19,0.7658,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,20,1.0174,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,21,0.7613,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,22,0.7101,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,23,0.5911,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,24,0.782,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,25,0.6109,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,26,0.7084,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,27,0.8481,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,28,1.1318,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,29,0.8723,10
+buscar_body_lotion,postgres_pgvector_hnsw,body lotion,57681,30,0.8657,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,1,1.3127,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,2,1.6821,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,3,1.6257,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,4,1.7915,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,5,1.0802,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,6,1.1303,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,7,1.1853,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,8,1.0363,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,9,1.1651,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,10,1.4663,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,11,1.2308,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,12,0.9234,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,13,0.8224,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,14,0.5338,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,15,0.5189,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,16,0.515,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,17,0.5262,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,18,0.5148,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,19,0.6093,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,20,0.6701,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,21,0.8855,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,22,0.635,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,23,0.7332,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,24,0.6667,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,25,0.5753,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,26,0.5489,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,27,0.537,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,28,0.5231,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,29,0.4701,10
+buscar_flip_flops,postgres_pgvector_hnsw,flip flops,10083,30,0.4725,10

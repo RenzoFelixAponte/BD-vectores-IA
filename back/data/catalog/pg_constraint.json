@@ -1,0 +1,38 @@
+[
+  {
+    "con_name": "lugares_pkey",
+    "con_type": "primary_key",
+    "con_rel_id": 1000,
+    "con_ind_id": 1001,
+    "con_key": [
+      1
+    ]
+  },
+  {
+    "con_name": "products_pkey",
+    "con_type": "primary_key",
+    "con_rel_id": 1008,
+    "con_ind_id": 1009,
+    "con_key": [
+      1
+    ]
+  },
+  {
+    "con_name": "cancion_pkey",
+    "con_type": "primary_key",
+    "con_rel_id": 1016,
+    "con_ind_id": 1017,
+    "con_key": [
+      1
+    ]
+  },
+  {
+    "con_name": "canciones_letras_pkey",
+    "con_type": "primary_key",
+    "con_rel_id": 1021,
+    "con_ind_id": 1022,
+    "con_key": [
+      1
+    ]
+  }
+]

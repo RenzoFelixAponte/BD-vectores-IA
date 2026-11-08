@@ -1,0 +1,7 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.0
+numpy==2.2
+opencv-contrib-python-headless==4.10.0.84
+librosa==0.10.0
+setuptools<81

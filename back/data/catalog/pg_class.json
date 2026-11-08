@@ -1,0 +1,106 @@
+[
+  {
+    "oid": 1000,
+    "rel_name": "lugares",
+    "rel_kind": "table",
+    "rel_natts": 4,
+    "rel_am": "bplus",
+    "rel_file_node": "lugares_pk_id"
+  },
+  {
+    "oid": 1001,
+    "rel_name": "pk_lugares_id",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "bplus",
+    "rel_file_node": "lugares_pk_id"
+  },
+  {
+    "oid": 1002,
+    "rel_name": "idx_sp",
+    "rel_kind": "index",
+    "rel_natts": 2,
+    "rel_am": "rtree",
+    "rel_file_node": "lugares_idx_sp"
+  },
+  {
+    "oid": 1003,
+    "rel_name": "idx_nombre",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "bplus",
+    "rel_file_node": "lugares_idx_nombre"
+  },
+  {
+    "oid": 1008,
+    "rel_name": "products",
+    "rel_kind": "table",
+    "rel_natts": 10,
+    "rel_am": "bplus",
+    "rel_file_node": "products_pk_id"
+  },
+  {
+    "oid": 1009,
+    "rel_name": "pk_products_id",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "bplus",
+    "rel_file_node": "products_pk_id"
+  },
+  {
+    "oid": 1010,
+    "rel_name": "idx_products_image",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "multimedia",
+    "rel_file_node": "products_idx_products_image"
+  },
+  {
+    "oid": 1016,
+    "rel_name": "cancion",
+    "rel_kind": "table",
+    "rel_natts": 3,
+    "rel_am": "bplus",
+    "rel_file_node": "cancion_pk_id"
+  },
+  {
+    "oid": 1017,
+    "rel_name": "pk_cancion_id",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "bplus",
+    "rel_file_node": "cancion_pk_id"
+  },
+  {
+    "oid": 1018,
+    "rel_name": "ix_pista",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "multimedia",
+    "rel_file_node": "cancion_ix_pista"
+  },
+  {
+    "oid": 1021,
+    "rel_name": "canciones_letras",
+    "rel_kind": "table",
+    "rel_natts": 5,
+    "rel_am": "bplus",
+    "rel_file_node": "canciones_letras_pk_id"
+  },
+  {
+    "oid": 1022,
+    "rel_name": "pk_canciones_letras_id",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "bplus",
+    "rel_file_node": "canciones_letras_pk_id"
+  },
+  {
+    "oid": 1023,
+    "rel_name": "idx_letra",
+    "rel_kind": "index",
+    "rel_natts": 1,
+    "rel_am": "inverted",
+    "rel_file_node": "canciones_letras_idx_letra"
+  }
+]

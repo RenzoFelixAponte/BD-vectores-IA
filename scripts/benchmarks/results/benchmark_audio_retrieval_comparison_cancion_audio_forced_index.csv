@@ -1,0 +1,10 @@
+modality,dataset_name,dataset_size,vector_dimension,top_k,repeats,own_index_bytes,pg_table_bytes,pg_index_bytes,pg_total_bytes,pg_plan_node,pg_uses_vector_index,case,query_genre,query_doc_id,engine,iteration,client_time_ms,row_count,recall_at_k_vs_own_index,top_ids
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,,,buscar_blues,blues,1,own_histogram_inverted_index,1,1.5635,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,,,buscar_blues,blues,1,own_histogram_sequential,1,6.0028,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,Index Scan,True,buscar_blues,blues,1,postgres_pgvector_hnsw,1,8.1296,10,1.0,1 902 289 822 256 9 295 287 911 271
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,,,buscar_classical,classical,101,own_histogram_inverted_index,1,0.8829,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,,,buscar_classical,classical,101,own_histogram_sequential,1,3.553,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,Index Scan,True,buscar_classical,classical,101,postgres_pgvector_hnsw,1,3.6709,10,1.0,101 109 105 103 107 520 198 111 104 108
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,,,buscar_rock,rock,901,own_histogram_inverted_index,1,1.9708,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,,,buscar_rock,rock,901,own_histogram_sequential,1,5.9381,10,1.0,901 84 74 271 300 285 378 359 972 422
+audio,cancion_audio,999,256,10,1,1571343,1368064,1400832,2801664,Index Scan,True,buscar_rock,rock,901,postgres_pgvector_hnsw,1,7.0548,10,1.0,901 84 74 271 300 285 378 359 972 422

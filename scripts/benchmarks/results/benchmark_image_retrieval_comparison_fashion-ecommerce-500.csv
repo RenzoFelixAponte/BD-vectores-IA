@@ -1,0 +1,10 @@
+modality,dataset_name,dataset_size,vector_dimension,top_k,repeats,own_index_bytes,pg_table_bytes,pg_index_bytes,pg_total_bytes,pg_plan_node,pg_uses_vector_index,case,query,query_doc_id,engine,iteration,client_time_ms,row_count,recall_at_k_vs_own_index,top_ids
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,,,buscar_kurta,kurta,12780,own_histogram_inverted_index,1,2.9015,10,1.0,12780 12781 28989 35994 21912 28987 31229 27010 39147 53814
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,,,buscar_kurta,kurta,12780,own_histogram_sequential,1,6.1046,10,1.0,12780 12781 28989 35994 21912 28987 31229 27010 39147 53814
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,Index Scan,True,buscar_kurta,kurta,12780,postgres_pgvector_hnsw,1,4.4694,10,1.0,12780 12781 28989 35994 21912 28987 31229 27010 39147 53814
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,,,buscar_body_lotion,body lotion,57681,own_histogram_inverted_index,1,1.5949,10,1.0,57681 57683 57685 57874 57687 55835 56427 11212 56428 10767
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,,,buscar_body_lotion,body lotion,57681,own_histogram_sequential,1,3.1593,10,1.0,57681 57683 57685 57874 57687 55835 56427 11212 56428 10767
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,Index Scan,True,buscar_body_lotion,body lotion,57681,postgres_pgvector_hnsw,1,4.4262,10,1.0,57681 57683 57685 57874 57687 55835 56427 11212 56428 10767
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,,,buscar_flip_flops,flip flops,10083,own_histogram_inverted_index,1,1.9247,10,1.0,10083 55352 25081 11863 10748 13687 25073 23100 10761 43285
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,,,buscar_flip_flops,flip flops,10083,own_histogram_sequential,1,3.021,10,1.0,10083 55352 25081 11863 10748 13687 25073 23100 10761 43285
+image,fashion-ecommerce-500,500,128,10,1,1118067,360448,450560,843776,Index Scan,True,buscar_flip_flops,flip flops,10083,postgres_pgvector_hnsw,1,3.846,10,1.0,10083 55352 25081 11863 10748 13687 25073 23100 10761 43285

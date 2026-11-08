@@ -1,0 +1,101 @@
+[
+  {
+    "index_rel_id": 1001,
+    "ind_rel_id": 1000,
+    "ind_is_primary": true,
+    "ind_is_unique": true,
+    "ind_key": [
+      1
+    ],
+    "ind_class": "bplus"
+  },
+  {
+    "index_rel_id": 1002,
+    "ind_rel_id": 1000,
+    "ind_is_primary": false,
+    "ind_is_unique": false,
+    "ind_is_spatial": true,
+    "ind_key": [
+      3,
+      4
+    ],
+    "ind_class": "rtree"
+  },
+  {
+    "index_rel_id": 1003,
+    "ind_rel_id": 1000,
+    "ind_is_primary": false,
+    "ind_is_unique": false,
+    "ind_is_spatial": false,
+    "ind_key": [
+      2
+    ],
+    "ind_class": "bplus"
+  },
+  {
+    "index_rel_id": 1009,
+    "ind_rel_id": 1008,
+    "ind_is_primary": true,
+    "ind_is_unique": true,
+    "ind_key": [
+      1
+    ],
+    "ind_class": "bplus"
+  },
+  {
+    "index_rel_id": 1010,
+    "ind_rel_id": 1008,
+    "ind_is_primary": false,
+    "ind_is_unique": false,
+    "ind_is_spatial": false,
+    "ind_is_content": true,
+    "ind_key": [
+      10
+    ],
+    "ind_class": "multimedia"
+  },
+  {
+    "index_rel_id": 1017,
+    "ind_rel_id": 1016,
+    "ind_is_primary": true,
+    "ind_is_unique": true,
+    "ind_key": [
+      1
+    ],
+    "ind_class": "bplus"
+  },
+  {
+    "index_rel_id": 1018,
+    "ind_rel_id": 1016,
+    "ind_is_primary": false,
+    "ind_is_unique": false,
+    "ind_is_spatial": false,
+    "ind_is_content": true,
+    "ind_key": [
+      3
+    ],
+    "ind_class": "multimedia"
+  },
+  {
+    "index_rel_id": 1022,
+    "ind_rel_id": 1021,
+    "ind_is_primary": true,
+    "ind_is_unique": true,
+    "ind_key": [
+      1
+    ],
+    "ind_class": "bplus"
+  },
+  {
+    "index_rel_id": 1023,
+    "ind_rel_id": 1021,
+    "ind_is_primary": false,
+    "ind_is_unique": false,
+    "ind_is_spatial": false,
+    "ind_is_content": true,
+    "ind_key": [
+      5
+    ],
+    "ind_class": "inverted"
+  }
+]

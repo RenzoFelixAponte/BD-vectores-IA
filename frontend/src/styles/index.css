@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Animations ─────────────────────────────────────────── */
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: .4; }
+}
+.spin      { animation: spin-slow .8s linear infinite; }
+.spinner   {
+  display: inline-block;
+  width: 12px; height: 12px;
+  border: 2px solid rgba(255,255,255,.25);
+  border-top-color: white;
+  border-radius: 9999px;
+  animation: spin-slow .6s linear infinite;
+}
+
+/* ── Monaco wrapper ─────────────────────────────────────── */
+.terminal-resizer {
+  height: 8px;
+  cursor: row-resize;
+  background: #0f172a;
+  border-top: 1px solid #334155;
+  border-bottom: 1px solid #1e293b;
+  position: relative;
+}
+.terminal-resizer::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 3px;
+  width: 48px;
+  height: 2px;
+  transform: translateX(-50%);
+  border-radius: 9999px;
+  background: #475569;
+}
+.terminal-resizer:hover::before {
+  background: #38bdf8;
+}
+.monaco-wrapper {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #475569; }
+
+/* ── Results table — sticky header ─────────────────────── */
+.results-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* ── Index badge (dynamic bg set via style prop) ────────── */
+.index-badge {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ── Recharts tooltip ───────────────────────────────────── */

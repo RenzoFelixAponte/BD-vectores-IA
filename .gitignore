@@ -1,0 +1,37 @@
+# Archivos de base de datos (Persistencia)
+*.bin
+!back/data/products_pk_id.bin
+!back/data/products_idx_products_image/codebook.bin
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Archivos ocultos de macOS
+.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+
+# Entornos Python
+.venv/
+.venv312/
+venv/
+
+# Datasets grandes locales
+fashion-dataset/
+fashion-dataset.zip
+archive.zip
+datasets/fashion-ecommerce-full/
+back/data/products_idx_products_image_full/
+back/data/products_full*
+
+# Tabla cancion2 (experimento local, no se versiona)
+back/data/cancion2*
+
+# Python/local
+.venv/
+__pycache__/
+*.pyc
