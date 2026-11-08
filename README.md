@@ -2,7 +2,6 @@
 
 # Sistema Multimodal de Recuperación y Búsqueda
 
-### Proyecto 2 — Base de Datos II
 
 Un mini-SGBD escrito **desde cero** en Python que integra, bajo un mismo dialecto SQL,
 recuperación por contenido sobre **texto**, **imágenes** y **audio**.
