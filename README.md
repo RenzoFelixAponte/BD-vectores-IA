@@ -14,11 +14,6 @@ recuperación por contenido sobre **texto**, **imágenes** y **audio**.
 
 </div>
 
-> **Universidad de Ingeniería y Tecnología (UTEC)** · Base de Datos II — Sección 1
->
-> **Integrantes:** Renzo Félix Aponte · Gabriel Frisancho Gálvez · Lisseth Jomely Rondán Cántaro · Alejandro Sebastián Chipayo Flores
-> **Docente:** Heider Ysaías Sánchez Enríquez
-
 ---
 
 ## Tabla de contenidos
