@@ -652,21 +652,5 @@ baseDatos-parte2/
 
 <div align="center">
 
----
-
-## Github Proyects: planificación y seguimiento con hitos alcanzados
-
-![Diagrama de grand](docs/img/diagrama_grand.png)
-
-1. 19-20 abril — estructura inicial y parser SQL (7 commits)
-2. 28 abr - 3 may — índices B+Tree, Extendible Hashing y Sequential File (11 commits)
-3. 4-9 mayo — persistencia, RTree y despliegue (10 commits) → cierre del Proyecto 1
-4. (salto de ~50 días sin commits — pausa entre proyectos)
-5. 28-29 junio — arranque del Proyecto 2: recuperación por contenido, texto y audio (7 commits)
-6. 30 jun - 1 jul — búsqueda visual e-commerce con imágenes (8 commits)
-7. 1-2 julio — benchmarks y experimentación (comparación 1K, GIN de Postgres) (4 commits)
-8. 3-5 julio — dataset de letras (Spotify) y documentación final del README (5 commits)
-
-*Proyecto 2 — Base de Datos II · UTEC · Sistema Multimodal de Recuperación y Búsqueda*
 
 </div>
